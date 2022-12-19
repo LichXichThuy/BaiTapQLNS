@@ -11,9 +11,9 @@ public class CongTy {
         System.out.print("Tên công ty: ");
         tenCongTy = scanner.nextLine();
         System.out.print("Mã số thuế: ");
-        maSoThue = scanner.nextInt();
+        maSoThue = Integer.parseInt(scanner.nextLine());
         System.out.print("Doanh thu tháng này: ");
-        doanhThuThang = scanner.nextInt();
+        doanhThuThang = Integer.parseInt(scanner.nextLine());
     }
     public CongTy(){
 
